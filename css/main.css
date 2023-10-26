@@ -58,7 +58,6 @@ html {
 
 #company {
     background-image: url("../assets/blocks/corp.png");
-    background-size: cover;
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -85,7 +84,6 @@ html {
 
 #capabilities {
     background-image: url("../assets/blocks/capabilities.png");
-    background-size: cover;
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -93,7 +91,6 @@ html {
 
 #responsibility {
     background-image: url("../assets/blocks/responsability.png");
-    background-size: cover;
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -105,7 +102,6 @@ html {
 
 #access {
     background-image: url("../assets/blocks/access.png");
-    background-size: cover;
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
