@@ -1,0 +1,180 @@
+html {
+    scroll-behavior: smooth;
+    scroll-padding: 70px;
+}
+.header {
+    position: fixed;
+    top: 0;
+    padding: 12px;
+    background-color: #fff;
+}
+.header .logo img {
+    height: 50px;
+}
+.block > header {
+    height: 315px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    backdrop-filter: brightness(.75);
+}
+.block > header h2 {
+    font-size: 80px;
+    color: #fff;
+    font-weight: 100;
+    text-align: center;
+    line-height: 1.5;
+    letter-spacing: 0;
+    text-transform: uppercase;
+}
+.item {
+    text-align: center;
+    flex: 1;
+    min-width: 300px;
+    max-width: 360px;
+}
+.item h3 {
+    color: #373D47;
+    padding: 40px 20px 20px;
+    margin: 0;
+    font-size: 22px;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: -1px;
+}
+.item img {
+    height: 240px;
+}
+
+#home {
+    background-image: url("../assets/blocks/ai-med.png");
+    background-size: cover;
+    background-position-x: center;
+    background-position-y: top;
+    background-repeat: no-repeat;
+}
+#home img {
+    width: 200px;
+}
+
+#company {
+    background-image: url("../assets/blocks/corp.png");
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.company-logo {
+    width: 100px;
+}
+#company h3 {
+    font-size: 56px;
+    text-align: center;
+    line-height: 1;
+    letter-spacing: -3px;
+    font-weight: 200;
+    text-transform: uppercase;
+}
+#company h4 {
+    font-size: 14px;
+    font-weight: 300;
+    color: #bbbdc0;
+    text-transform: uppercase;
+    text-align: center;
+    letter-spacing: 1px;
+}
+
+#capabilities {
+    background-image: url("../assets/blocks/capabilities.png");
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#responsibility {
+    background-image: url("../assets/blocks/responsability.png");
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.default-list > li {
+    list-style: disc;
+    margin-left: 20px;
+}
+
+#access {
+    background-image: url("../assets/blocks/access.png");
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+footer {
+    padding: 35px 20px;
+    background-color: #eeeff2!important;
+    border-top: 1px solid #e9ebed;
+    text-shadow: 1px 1px 0 rgba(255, 255, 255, 1);
+}
+footer img {
+    height: 50px;
+}
+footer h5 {
+    font-weight: 700;
+    border-bottom: 1px solid #dfe1e3;
+    padding-bottom: 10px;
+    margin-bottom: 15px;
+}
+.footer-menu {
+    width: 170px;
+    text-align: right;
+    padding: 0 20px;
+}
+.menu-list > li {
+    font-size: 15px;
+    font-weight: 300;
+    cursor: pointer;
+}
+.navigation {
+    overflow: hidden;
+    background-color: #fff;
+}
+
+
+@media screen and (max-width: 767px) {
+    .header {
+        height: auto;
+    }
+    .navigation {
+        width: 100%;
+        height: 0;
+    }
+    .navigation ul {
+        flex-direction: column!important;
+        align-items: end;
+    }
+    .header .logo img {
+        height: 40px;
+    }
+    .block header {
+        height: 220px;
+    }
+    .block header h2 {
+        font-size: 30px;
+    }
+    #home img {
+        width: 125px;
+    }
+    .company-logo {
+        width: 60px;
+    }
+    #company h3 {
+        font-size: 32px;
+    }
+    .footer-menu {
+        margin-top: 30px;
+        width: 100%;
+    }
+}
