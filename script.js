@@ -79,13 +79,13 @@ const toggleMenu = (e) => {
     }
 }
 
-const doParallax = (sections) => {
+/*const doParallax = (sections) => {
     sections.forEach(section => {
         if (section.id !== 'home') {
             section.element.style.backgroundPositionY = window.scrollY/12 + 'px'
         }
     })
-}
+}*/
 
 window.onload = () => {
 
@@ -100,7 +100,7 @@ window.onload = () => {
 
     window.onscroll = () => {
         if (burger.checked) toggleMenu(false)
-        doParallax(sections)
+/*        doParallax(sections)*/
     }
 
     getEl('accessForm').onsubmit = (e) => dataAccess(e)
