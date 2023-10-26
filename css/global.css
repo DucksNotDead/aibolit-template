@@ -52,7 +52,7 @@
 }
 .gap {
     display: flex;
-    gap: 12px;
+    gap: 15px;
 }
 .gap-lg {
     display: flex;
