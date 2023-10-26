@@ -82,7 +82,7 @@ const toggleMenu = (e) => {
 const doParallax = (sections) => {
     sections.forEach(section => {
         if (section.id !== 'home') {
-            section.element.style.backgroundPositionY = window.scrollY/20 + 'px'
+            section.element.style.backgroundPositionY = window.scrollY/15 + 'px'
         }
     })
 }
