@@ -5,7 +5,7 @@ html {
 .header {
     position: fixed;
     top: 0;
-    padding: 12px;
+    padding: 12px 20px;
     background-color: #fff;
 }
 .header .logo img {
